@@ -25,6 +25,7 @@ public class FirstClass {
 		System.out.println("Navigating to Google.com");
 		driver.navigate().to("https://www.google.com/");
 		driver.manage().window().maximize();
+		System.out.println("Searching text - \"automation testing tools\" ");
 		driver.findElement(By.id("APjFqb")).sendKeys("automation testing tools");
 		driver.findElement(By.xpath("(//input[@class='gNO89b'])[2]")).click();
 		driver.findElement(By.xpath("(//div[@class='hXfKwd'])[1]")).click();
