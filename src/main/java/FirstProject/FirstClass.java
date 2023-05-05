@@ -22,7 +22,7 @@ public class FirstClass {
 		System.setProperty("webdriver.chrome.driver", "C:\\Selenium Jars\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		
+		System.out.println("Navigating to Google.com");
 		driver.navigate().to("https://www.google.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("APjFqb")).sendKeys("automation testing tools");
